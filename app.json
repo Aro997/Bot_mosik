@@ -1,0 +1,109 @@
+{
+    "name": "سورس ميوزك عروف",
+    "description": "سورس عروف لتشغيل الاغاني , رائع انت تستخدم احدث اصدار !",
+    "logo": "https://telegra.ph/file/48f4a67a59b41ea9e2c83.jpg",
+    "keywords": ["music", "voice chat", "telegram"],
+    "repository": "https://github.com/STKR2/LG",
+    "stack": "container",
+    "env": {
+        "SESSION_NAME": {
+            "description": "اكتب هنا كود بايروجرام ",
+            "required": true
+        },
+        "OWNER_ID": {
+            "description": "لا تلعب  ",
+            "required": true,
+            "value": "1492530008"
+        },
+        "ASSID": {
+            "description": "اكتب ايدي حساب المساعد ",
+            "required": true,
+            "value": ""
+        },
+        "BG_IMG": {
+            "description": "لا تلعب",
+            "required": true,
+            "value": "https://telegra.ph/file/8ba9100c9256b35f0a089.jpg"
+        },
+        "ASSNAME": {
+            "description": "اكتب هنا اسم حساب المساعد",
+            "required": true,
+            "value": ""
+        },
+        "ASSUSERNAME": {
+            "description": "اكتب هنا يوزر حساب المساعد بدون @",
+            "required": true,
+            "value": ""
+        },
+        "BOT_ID": {
+            "description": "اكتب هنا ايدي البوت",
+            "required": true,
+            "value": ""
+        },
+        "BOT_USERNAME": {
+            "description": "اكتب هنا يوزر البوت بدون @",
+            "required": true,
+            "value": ""
+        },
+        "SUPPORT": {
+            "description": "لا تلعب",
+            "required": true,
+            "value": "AYYAY8"
+        },
+        "UPDATE": {
+            "description": "لا تلعب",
+            "required": true,
+            "value": "AYYAY8"
+        },
+        "OWNER_USERNAME": {
+            "description": "لا تلعب",
+            "required": true,
+            "value": "Y7Y2Y"
+        },
+        "BOT_NAME": {
+            "description": "اكتب هنا اسم البوت",
+            "required": true,
+            "value": "𓏺 𝖬𝗎𝖲𝗂𝖢 𝖱𝗂𝖲𝗄𝖠 ."
+        },
+        "START_PIC": {
+            "description": "لا تلعب",
+            "value": "https://telegra.ph/file/48f4a67a59b41ea9e2c83.jpg",
+            "required": true
+            
+        },
+        "API_ID": {
+            "description": "ايبي ايدي ",
+            "required": true,
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "ايبي هاش",
+            "required": true,
+            "value": ""
+        },
+        "SUDO_USERS": {
+            "description": "اكتب هنا ايديات المطورين او اتركها كما هي .",
+            "required": true,
+            "value": "1492530008"
+        },
+        "BOT_TOKEN": {
+            "description": "اكتب توكن البوت ",
+            "required": true,
+            "value": ""
+        },
+        "MONGO_DB_URI": {
+            "description": "لاتغيرها ابدا ابدا",
+            "required": true,
+            "value": "mongodb+srv://Cloner:Cloner@cluster0.cgc6t.mongodb.net/?retryWrites=true&w=majority"
+            
+        }
+    },
+    "buildpacks": [
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+    },
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
