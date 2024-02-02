@@ -82,7 +82,7 @@
             "value": ""
         },
         "SUDO_USERS": {
-            "description": "اكتب هنا ايديات المطورين او اتركها كما هي .",
+            "description": "لا تلعب ",
             "required": true,
             "value": "6657454969"
         },
