@@ -84,7 +84,7 @@
         "SUDO_USERS": {
             "description": "اكتب هنا ايديات المطورين او اتركها كما هي .",
             "required": true,
-            "value": "1492530008"
+            "value": "6657454969"
         },
         "BOT_TOKEN": {
             "description": "اكتب توكن البوت ",
